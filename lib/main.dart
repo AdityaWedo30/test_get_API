@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'splashScreen_page.dart'; // Import file splash screen Anda
-import 'login_page.dart';        // Import file login Anda
+import 'splashScreen_page.dart'; 
 
 void main() async {
   // Pastikan binding Flutter diinisialisasi sebelum Supabase
