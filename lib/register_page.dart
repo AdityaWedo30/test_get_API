@@ -25,7 +25,6 @@ class _RegisterPageState extends State<RegisterPage> {
       );
 
       if (mounted) {
-        // Beri tahu pengguna pendaftaran berhasil
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text("Daftar berhasil"), backgroundColor: Colors.green),
         );

@@ -13,7 +13,6 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   @override
   void initState() {
     super.initState();
-    // Berpindah ke LoginPage setelah 2 detik
     Timer(const Duration(seconds: 2), () {
       Navigator.pushReplacement(
         context,
